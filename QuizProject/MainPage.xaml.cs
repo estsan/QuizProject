@@ -25,6 +25,7 @@ namespace QuizProject
         public MainPage()
         {
             this.InitializeComponent();
+            ContentFrame.Navigate(typeof(BoardPage));
         }
     }
 }

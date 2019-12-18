@@ -9,6 +9,19 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
 
+        <StackPanel>
+            <TextBlock Text="QUIZKAMPEN"
+                       FontSize="80"
+                       HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <Frame x:Name="ContentFrame" Grid.Row="1"/>
+
+        <!-- Logga gemensamt för alla sidor. Mer här som vi kommer på -->
     </Grid>
 </Page>

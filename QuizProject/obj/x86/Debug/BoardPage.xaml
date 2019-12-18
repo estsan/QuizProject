@@ -15,15 +15,47 @@
         <NavigationView x:ConnectionId='2' x:Name="NavView"
                         IsBackButtonVisible="Collapsed"
                         IsSettingsVisible="false"
-                        IsPaneOpen="true">
+                        IsPaneOpen="false">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Home" Content="Home" Tag="home"/>
-                <NavigationViewItem Content="The Food Page" Tag="food">
-                    <NavigationViewItem.Icon>
-                        <FontIcon Glyph="&#xED56;"/>
-                    </NavigationViewItem.Icon>
+                <NavigationViewItem Icon="Delete" Foreground="Red" Tag="home">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Phatchari" SelectionHighlightColor="Black"/>
+                        <StackPanel Orientation="Horizontal">
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="Green"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Blue"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="DeepPink"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="Yellow"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Red"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Purple"/>
+                        </StackPanel>
+                    </StackPanel>
                 </NavigationViewItem>
-                <NavigationViewItem Icon="OtherUser" Content="About Us" Tag="user"/>
+                <NavigationViewItem Icon="Delete" Tag="Lovedeep" Foreground="Blue">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Lovedeep" Foreground="Black"/>
+                        <StackPanel Orientation="Horizontal">
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="Green"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Blue"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="DeepPink"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="Yellow"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Red"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Purple"/>
+                        </StackPanel>
+                    </StackPanel>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Delete" Foreground="Yellow" Tag="user">
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="Ester" Foreground="Black"/>
+                        <StackPanel Orientation="Horizontal">
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="Green"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Blue"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="DeepPink"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE734;" Foreground="Yellow"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Red"/>
+                            <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE735;" Foreground="Purple"/>
+                        </StackPanel>
+                    </StackPanel>
+                </NavigationViewItem>
             </NavigationView.MenuItems>
             <Grid>
                 <Grid.RowDefinitions>
@@ -73,6 +105,35 @@
                 <Rectangle Grid.Row="7" Grid.Column="5" Fill="DeepPink"/>
                 <Rectangle Grid.Row="7" Grid.Column="6" Fill="Blue"/>
                 <Rectangle Grid.Row="7" Grid.Column="7" Fill="Green"/>
+
+                <!-- Is supposed to Be a die, and animate when button is clicked -->
+                <FontIcon 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    FontSize="20"
+                    FontFamily="{StaticResource SymbolThemeFontFamily}" 
+                    Glyph="&#xF157;" 
+                    Foreground="Red"/>
+                <FontIcon 
+                    Grid.Row="3"
+                    Grid.Column="7"
+                    FontSize="20"
+                    FontFamily="{StaticResource SymbolThemeFontFamily}" 
+                    Glyph="&#xF157;" 
+                    Foreground="Blue"/>
+                <FontIcon 
+                    Grid.Row="7"
+                    Grid.Column="3"
+                    FontSize="20"
+                    FontFamily="{StaticResource SymbolThemeFontFamily}" 
+                    Glyph="&#xF157;" 
+                    Foreground="Yellow"/>
+                <Button Grid.Row="5"
+                        Grid.Column="3"
+                        Grid.ColumnSpan="3"
+                        Content="ROLL DIE"
+                        Height="auto"
+                        Width="250"/>
             </Grid>
 
         </NavigationView>

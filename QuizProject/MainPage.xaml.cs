@@ -26,6 +26,7 @@ namespace QuizProject
         {
             this.InitializeComponent();
             ContentFrame.Navigate(typeof(BoardPage));
+
         }
     }
 }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ester.sandstrom\\Documents\\Skola\\Utveckling i ramverket .NET\\QuizProject\\QuizProject\\QuizProject.csproj": {}
+    "C:\\Users\\iindi\\Source\\Repos\\QuizProjectEsterLovedeep\\QuizProject\\QuizProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ester.sandstrom\\Documents\\Skola\\Utveckling i ramverket .NET\\QuizProject\\QuizProject\\QuizProject.csproj": {
+    "C:\\Users\\iindi\\Source\\Repos\\QuizProjectEsterLovedeep\\QuizProject\\QuizProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ester.sandstrom\\Documents\\Skola\\Utveckling i ramverket .NET\\QuizProject\\QuizProject\\QuizProject.csproj",
+        "projectUniqueName": "C:\\Users\\iindi\\Source\\Repos\\QuizProjectEsterLovedeep\\QuizProject\\QuizProject.csproj",
         "projectName": "QuizProject",
-        "projectPath": "C:\\Users\\ester.sandstrom\\Documents\\Skola\\Utveckling i ramverket .NET\\QuizProject\\QuizProject\\QuizProject.csproj",
-        "packagesPath": "C:\\Users\\ester.sandstrom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ester.sandstrom\\Documents\\Skola\\Utveckling i ramverket .NET\\QuizProject\\QuizProject\\obj\\",
+        "projectPath": "C:\\Users\\iindi\\Source\\Repos\\QuizProjectEsterLovedeep\\QuizProject\\QuizProject.csproj",
+        "packagesPath": "C:\\Users\\iindi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\iindi\\Source\\Repos\\QuizProjectEsterLovedeep\\QuizProject\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ester.sandstrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\iindi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +39,7 @@
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.8, )"
+              "version": "[6.2.9, )"
             }
           },
           "imports": [

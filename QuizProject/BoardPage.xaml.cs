@@ -26,5 +26,17 @@ namespace QuizProject
         {
             this.InitializeComponent();
         }
+
+        private void RollDie(object sender, RoutedEventArgs e)
+        {
+            if (die.Text == "a")
+            {
+                die.Text = "b";
+            }
+            else
+            {
+                die.Text = "a";
+            }
+        }
     }
 }
